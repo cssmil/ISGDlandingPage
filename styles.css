@@ -1,0 +1,163 @@
+
+
+body {
+    background: linear-gradient(270deg, #0F2C52 61.46%, #BB8D00 100%);
+    opacity: 0.7;
+}
+
+.deposit-popup {
+    background-color: #F2F2F2;
+    max-width: 700px;
+}
+
+.deposit-popup__header {
+    background-color: #042;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 12px;
+
+}
+
+.deposit-popup__header img {
+    margin: 0;
+}
+
+.deposit-popup__header h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+
+.deposit-popup__passarela {
+    
+}
+
+.deposit-popup__contain {
+    margin: 0 auto;
+    max-width: 580px;
+    padding: 16px;
+}
+
+.deposit-popup__passarela h2 {
+    font-size: 16px;
+}
+
+.deposit-popup__img {
+    display: block;
+    height: 42px;
+    margin: 0 auto;
+
+}
+
+.deposit-popup__input {
+    height: 37px;
+    border: 1px solid #096045;
+    width: 100%;
+}
+
+.deposit-popup__passarela p {
+    font-size: 12px;
+    color: #414141;
+}
+
+.deposit-popup__btn {
+    display: flex;
+    justify-content: center;
+}
+
+.deposit-popup__btn a{
+    display: block;
+    background-color: yellow;
+    padding: 12px 15px;
+    font-size: 13px;
+    text-decoration: none;
+    color: #042;
+    font-weight: bold;
+}
+
+/* info */
+
+
+.deposit-popup__info .tab {
+    display: block;
+    color: #515050;
+    font-weight: bold;
+    width: 50%;
+    text-align: center;
+    padding-bottom: 4px;
+    border-bottom: solid 4px #A8A8A8;
+}
+
+.deposit-popup__info .tabs--active {
+    color: #042;
+    border-bottom: solid 4px #042;
+}
+
+.deposit-popup__info .container {
+	margin: 1em auto 0;
+    max-width: 580px;
+}
+
+.deposit-popup__info .container--tabs {
+    padding: 0;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+    margin: 0;
+}
+
+.deposit-popup__info .container--tabs.tab {
+        min-height: 2em;
+		padding: 1em;
+		box-sizing: border-box;
+		width: 100%;
+		text-align: center;
+		cursor: pointer;
+		background-color: black;
+		color: white;
+		transition: background-color 0.25s;
+}
+
+
+.deposit-popup__info .container--tabs.tab:hover{
+    background-color: rgba(0, 0, 0, 0.25);
+    transition: background-color 0.25s;
+    color: white;
+}
+
+.deposit-popup__info .content {
+	display: none;
+    background-color: #D8E3E0;
+	text-align: center;
+    padding: 16px;
+}
+
+.deposit-popup__info .content--active {
+	display: block;
+    
+}
+
+.deposit-popup__info h1 {
+	margin-bottom: 0.5em;
+	font-weight: 700;
+}
+
+.deposit-popup__info p {
+	font-weight: normal;
+    padding: 0;
+    margin: 0;
+    text-align: start;
+}
+
+.deposit-popup__bank {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+    gap: 4px;
+    margin-bottom: 16px;
+}
+
+.deposit-popup__bank img {
+    width: 100%;
+}
